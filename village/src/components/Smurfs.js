@@ -5,6 +5,7 @@ import Smurf from './Smurf';
 class Smurfs extends Component {
   render() {
     return (
+      <section className="Smurfs-container">
       <div className="Smurfs">
         <h1>Smurf Village</h1>
         <ul>
@@ -21,6 +22,7 @@ class Smurfs extends Component {
           })}
         </ul>
       </div>
+      </section>
     );
   }
 }

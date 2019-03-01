@@ -47,6 +47,7 @@ class SmurfForm extends Component {
             placeholder="age"
             value={this.state.age}
             name="age"
+            type="number"
           />
           <input
             onChange={this.handleInputChange}

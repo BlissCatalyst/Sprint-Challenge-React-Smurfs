@@ -1,3 +1,43 @@
+/* Class/Component Stylings */
 .App {
-  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 2rem;
+}
+
+.Smurfs-container {
+  display: flex;
+  justify-content: center;
+}
+
+.form-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.SmurfForm {
+  width: 359px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.SmurfForm form{
+  display: flex;
+  flex-flow: column;
+}
+
+.SmurfForm form input{
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.SmurfForm form button{
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.Smurf {
+  margin-bottom: 10px;
 }
